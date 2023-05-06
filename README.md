@@ -35,50 +35,90 @@ po obu stronach asymptoty pionowej rozwiązaniem, które zastosowano jest przerw
 --------------------------------- ZWRÓCONO ---------------------------------
 
 Search for an interval around 6 containing a sign change:
+
  Func-count    a          f(a)             b          f(b)        Procedure
+ 
     1               6     -0.291006             6     -0.291006   initial interval
+    
     3         5.83029     -0.486626       6.16971     -0.113969   search
+    
     5            5.76     -0.576799          6.24    -0.0432122   search
+    
     7         5.66059     -0.717836       6.33941     0.0562853   search
+    
+    
  
 Search for a zero in the interval [5.66059, 6.33941]:
+
  Func-count    x          f(x)             Procedure
+ 
     7         6.33941     0.0562853        initial
+    
     8         6.29006    0.00686984        interpolation
+    
     9         6.28326   7.31689e-05        interpolation
+    
    10         6.28319   9.31674e-08        interpolation
+   
    11         6.28319   1.26008e-12        interpolation
+   
    12         6.28319  -2.44929e-16        interpolation
+   
    13         6.28319  -2.44929e-16        interpolation
+   
  
 Zero found in the interval [5.66059, 6.33941]
  
 Search for an interval around 4.5 containing a sign change:
+
  Func-count    a          f(a)             b          f(b)        Procedure
+ 
     1             4.5       4.63733           4.5       4.63733   initial interval
+    
     3         4.37272       2.82995       4.62728       11.7212   search
+    
     5            4.32       2.41633          4.68       30.8639   search
+    
     7         4.24544       1.98361       4.75456      -23.6998   search
  
 Search for a zero in the interval [4.24544, 4.75456]:
+
  Func-count    x          f(x)             Procedure
+ 
     7         4.24544       1.98361        initial
+    
     8         4.28476       2.19418        interpolation
+    
     9         4.51966       5.12424        bisection
+    
    10         4.63711       13.2587        bisection
+   
    11         4.75456      -23.6998        bisection
+   
    12         4.73801      -39.0229        interpolation
+   
    13         4.69583        60.399        bisection
+   
    14         4.70037       83.1719        interpolation
+   
    15         4.71692       -220.62        bisection
+   
    16         4.70864       267.019        interpolation
+   
    17         4.70943       338.132        interpolation
+   
    18          4.7113       921.746        bisection
+   
    19         4.71318      -1269.65        bisection
+   
    20         4.71303      -1564.99        interpolation
+   
    21         4.71263      -4078.77        bisection
+   
    22         4.71224       6727.73        bisection
+   
    23         4.71229       9962.96        interpolation
+   
    24         4.71244      -20718.2        bisection
    25         4.71236       38383.9        interpolation
    26         4.71241      -45016.5        interpolation
